@@ -1,6 +1,6 @@
 {
     "name": "bliq-mx/erp-hooks",
-    "description": "ERP Hooks",
+    "description": "Bliq Extension",
     "type": "library",
     "license": "MIT",
     "config": {
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Bliq\\Hooks\\": "src/"
+            "Bliq\\Extension\\": "src/"
         }
     }
 }
