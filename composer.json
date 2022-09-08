@@ -1,0 +1,24 @@
+{
+    "name": "bliq-mx/extension-utils",
+    "description": "Bliq Extension",
+    "type": "library",
+    "license": "MIT",
+    "config": {
+        "optimize-autoloader": true
+    },
+    "authors": [
+        {
+            "name": "Noel Miranda",
+            "email": "noelmrnd@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bliq\\ExtensionUtils\\": "src/"
+        }
+    }
+}
